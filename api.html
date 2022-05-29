@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SerVion :: Dashboard</title>
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/css/all.min.css" />
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+    </head>
+    <body>
+        <!-- Left sidebar menu start -->
+        <aside class="left-sidebar">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/logo.svg" alt="logo" />
+                </a>
+            </div>
+            <div class="mobile-title">
+                <div class="top">
+                    <a href="javascript:void(0);" class="toggler-link">
+                        <div class="user">
+                            <div class="img">
+                                <img src="assets/images/user.png" alt="user" />
+                            </div>
+                            <div class="arr">
+                                <img src="assets/images/arr-down.svg" alt="arr" />
+                            </div>
+                        </div>
+                    </a>
+                    <div class="left-slide ms-auto">
+                        <img src="assets/images/arr-left.svg" alt="left-arr" />
+                    </div>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="has-submenu">
+                                <img src="assets/images/arr-down.svg" alt="img" />
+                                <a href="#">
+                                    <img src="assets/images/d-1.svg" alt="img" />
+                                    <span>Switch Company</span>
+                                </a>
+                                <div class="submenu">
+                                    <ul>
+                                        <li><a href="#">Andy Server</a></li>
+                                        <li><a href="#">Other Server</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/d-2.svg" alt="img" />
+                                    <span>Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/d-3.svg" alt="img" />
+                                    <span>Analytics</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/d-4.svg" alt="img" />
+                                    <span>Settings & Privacy</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/d-5.svg" alt="img" />
+                                    <span>Help Center</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/d-6.svg" alt="img" />
+                                    <span>Log out</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h2>ANDY SERVER</h2>
+                </div>
+            </div>
+            <div class="title">
+                <p>PAGES</p>
+            </div>
+            <div class="menu">
+                <ul class="main-menu">
+                    <li>
+                        <a href="index.html">
+                            <i class="fas fa-home"></i>
+                            <span>HOME</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="server.html">
+                            <i class="fas fa-server"></i>
+                            <span>SERVER</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="type.html">
+                            <i class="fas fa-database"></i>
+                            <span>TYPE</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html">
+                            <i class="fas fa-handshake"></i>
+                            <span>SERVICES</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="commands.html">
+                            <i class="fas fa-couch"></i>
+                            <span>COMMANDS</span>
+                        </a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">
+                            <i class="fas fa-asterisk"></i>
+                            <span>OPERATING SYSTEMS</span>
+                        </a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="os.html">OS</a></li>
+                                <li><a href="distro.html">Distro</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="active">
+                        <a href="api.html">
+                            <i class="fas fa-book-open"></i>
+                            <span>API</span>
+                        </a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">
+                            <i class="fa fa-cog"></i>
+                            <span>SETTINGS</span>
+                        </a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="menu.html">Menu Generator</a></li>
+                                <li><a href="#">Report generator</a></li>
+                                <li><a href="#">log errors</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">
+                            <i class="fa fa-user"></i>
+                            <span>USER MANAGEMENT</span>
+                        </a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="profile.html">User Profile</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-list"></i>
+                            <span>WIDGETS</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="circle">
+                <img src="assets/images/circle-design.svg" alt="circle" />
+            </div>
+        </aside>
+        <!-- Left sidebar menu end -->
+
+        <!-- Main content start -->
+        <main class="main dashboard">
+            <!-- Header start -->
+            <header class="header">
+                <div class="mobile-toggler">
+                    <a href="#">
+                        <img src="assets/images/mobile-toggler.svg" alt="img" />
+                    </a>
+                </div>
+                <div class="left">
+                    <div class="page-title">
+                        <h1 class="mb-0"><span>API</span></h1>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="notifications-message">
+                        <ul class="icons">
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="assets/images/noti.svg" alt="notifications" />
+                                    <span>10</span>
+                                </a>
+                                <div class="notification-data dropdown">
+                                    <h3>Notifications</h3>
+                                    <div class="dropdown-filter">
+                                        <div class="filter-output">
+                                            <span>Today</span>
+                                            <img src="assets/images/arr-down.svg" alt="arrow" />
+                                        </div>
+                                        <ul class="filter-time">
+                                            <li><a href="#">This Month</a></li>
+                                            <li><a href="#">This Year</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="notification-list">
+                                        <a href="#">
+                                            <div class="item">
+                                                <div class="img">
+                                                    <img src="assets/images/noti-img.png" alt="noti" />
+                                                </div>
+                                                <div class="text">
+                                                    <h4>Project Noname</h4>
+                                                    <small>13 minutes ago</small>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="item">
+                                                <div class="img">
+                                                    <img src="assets/images/noti-img.png" alt="noti" />
+                                                </div>
+                                                <div class="text">
+                                                    <h4>Project Noname</h4>
+                                                    <small>13 minutes ago</small>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="item">
+                                                <div class="img">
+                                                    <img src="assets/images/noti-img.png" alt="noti" />
+                                                </div>
+                                                <div class="text">
+                                                    <h4>Project Noname</h4>
+                                                    <small>13 minutes ago</small>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="assets/images/massage.svg" alt="message" />
+                                    <span>10</span>
+                                </a>
+                                <div class="massage-data dropdown">
+                                    <h3>Messages</h3>
+                                    <div class="dropdown-filter">
+                                        <div class="filter-output">
+                                            <span>Today</span>
+                                            <img src="assets/images/arr-down.svg" alt="arrow" />
+                                        </div>
+                                        <ul class="filter-time">
+                                            <li><a href="#">This Month</a></li>
+                                            <li><a href="#">This Year</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="message-list">
+                                        <a href="#">
+                                            <div class="item">
+                                                <div class="img">
+                                                    <img src="assets/images/noti-img.png" alt="noti" />
+                                                </div>
+                                                <div class="text">
+                                                    <h4>Project Noname</h4>
+                                                    <small>Sarah Style: Hello</small>
+                                                </div>
+                                                <div class="date ms-auto">
+                                                    <small>April 26, 2022</small>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="item">
+                                                <div class="img">
+                                                    <img src="assets/images/noti-img.png" alt="noti" />
+                                                </div>
+                                                <div class="text">
+                                                    <h4>Project Noname</h4>
+                                                    <small>Sarah Style: Hello</small>
+                                                </div>
+                                                <div class="date ms-auto">
+                                                    <small>April 26, 2022</small>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="item">
+                                                <div class="img">
+                                                    <img src="assets/images/noti-img.png" alt="noti" />
+                                                </div>
+                                                <div class="text">
+                                                    <h4>Project Noname</h4>
+                                                    <small>Sarah Style: Hello</small>
+                                                </div>
+                                                <div class="date ms-auto">
+                                                    <small>April 26, 2022</small>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user">
+                        <a href="#">
+                            <div class="img">
+                                <img src="assets/images/user.png" alt="User" />
+                            </div>
+                            <div class="down-arr">
+                                <img src="assets/images/arr-down.svg" alt="arrow down" />
+                            </div>
+                        </a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="has-submenu">
+                                    <img src="assets/images/arr-down.svg" alt="img" />
+                                    <a href="#">
+                                        <img src="assets/images/d-1.svg" alt="img" />
+                                        <span>Switch Company</span>
+                                    </a>
+                                    <div class="submenu">
+                                        <ul>
+                                            <li><a href="#">Andy Server</a></li>
+                                            <li><a href="#">Other Server</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/d-2.svg" alt="img" />
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/d-3.svg" alt="img" />
+                                        <span>Analytics</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/d-4.svg" alt="img" />
+                                        <span>Settings & Privacy</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/d-5.svg" alt="img" />
+                                        <span>Help Center</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/d-6.svg" alt="img" />
+                                        <span>Log out</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header end -->
+
+            <!-- Main content start -->
+            <main class="main-content custom-bg">
+                <div class="api-page">
+                    <p>Lets you get all of the statistics of your outbound emails for a specific server. These statistics are stored permantently and do not expire. All stats use EST timezone</p>
+
+                    <a href="#">Create</a>
+                </div>
+            </main>
+            <!-- Main content end -->
+        </main>
+        <!-- Main content end -->
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.2.2.4.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
